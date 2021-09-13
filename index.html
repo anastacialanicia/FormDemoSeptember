@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>Document</title>
+        <title>FormsDemo</title>
         <link rel="Stylesheet" href="main.css">
 </head>
 <body>
     <!-- create a google search form -->
-    <form action="https://www.google.com/search" method="GET" class="formbox">
+    <!-- <form action="https://www.google.com/search" method="GET" class="formbox"> -->
         <!-- Makes Text Box -->
-        <div>
-            <input type="text" name="q" type="search">
+        <Form action="" class="formbox">
+            <h2>Sign Up</h2>
+    
+        <div class="form-group">
+            <input type="email" id="Email" name="email" placeholder="Email">
         </div>
-    <!-- <br /> -->
-       <div>
-            <input type="button" value="Submit">
-       </div>
+
+        <div class="form-group">
+            <input type="text" id="username" name="username" placeholder="User Name">
+        </div>
+
+        <div class="form-group">
+            <input type="password" id="password" name="password" placeholder="Password">
+        </div>
+
+        <div class="form-group">
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password">
+        </div>
+
+        <br />
+        
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+        </Form>
+    
+       
         
         <!-- <button type="submit">Bannana</button> -->
-        </form>
+    
 </body>
 </html>
